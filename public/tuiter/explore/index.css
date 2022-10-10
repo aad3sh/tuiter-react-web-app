@@ -1,101 +1,156 @@
-.wd-background {
-    background-color: black;
-    border-color: rgb(47,51,54);
-    border-style: solid;
+.text-centre {
+    text-align: center;
+}
+.rounded-button {
+    margin-top: 5px;
+    background-color: #0d6efd;
+    text-align: center;
+    font-size: small;
+    color: white;
+    border-radius: 50px;
+    border: #0d6efd;
+    width: 100%;
+    height: 40px;
+}
+.wd-search-field {
+    border-radius: 50px;
+    height: 50px;
+    background-color: rgba(231, 233, 234, 0.1);
+    color: lightgray;
+    padding: 0px;
+    border-width: 2px;
+    border-color: black;
+    font-size: small;
+    float: left;
+    width: 100%;
 }
 .wd-margin-left {
     margin-left: 16px;
 }
-.wd-search-field {
-    margin-top: 20px;
-    border-radius: 25px;
-    height: 40px;
-    background-color: darkgrey;
-    width: 90%;
-}
-.wd-rel {
-    position: relative;
-}
-.wd-gearbox {
-    margin-top: 30px;
-    margin-right: 12px;
-    position: relative;
-    float: right;
-}
-.wd-hyperlinks {
-    text-align: center;
-    width: 10%;
-    color: darkgrey;
-    float: left;
-    padding: 16px;
-    font-size: 15px;
-    font-weight: bold;
-    color: rgb(110,118,125);
-}
-.wd-highlight {
-    color: rgb(29,161,242);
-    border-bottom-color: rgb(2,161,242);
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-radius: 5px;
-}
-.wd-padding-top{
-    padding-top: 12px;
-    /*padding-left: 16px;*/
-}
-.wd-p-gray{
-    color:rgb(110, 118, 125);
-    font-size:13px;
-}
-.wd-p-gray-font{
-    color:white;
-    font-size:17px;
-    font-weight: bold;
-}
-
-.wd-hr-border {
-    border: 1px solid gray;
-    border-width: 0.5px;
-}
-.wd-blankspace {
-    margin-top: 19px;
-    background-color: #262A36FF;
-    width: 100%;
-}
-.wd-p-white{
-    font-size: 13px;
-    color:white;
-}
-.wd-author-img{
-    width: 100px;
-    height: 100px;
-    float: right;
-    height: 100px;
-}
-.wd-rounded-corners-all-around {
-    border-radius: 10px;
-}
-.wd-image-margin-right {
-    margin-right: 16px;
-}
-.wd-p-lightgray{
-    font-size: 13px;
-    color:lightgray;
-}
-/*
-Placeholder coloring
- */
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
-    opacity: 1; /* Firefox */
-    font-weight: lighter;
+.wd-margin-top {
+    margin-top: 10px;
 }
 .fa-gear {
-    color: #1DA1F2;
+    margin-top: 15px;
+    font-size: 25px;
+    color: #0d6efd;
 }
-.fa-user-check {
-    color: #1DA1F2;
+.list-group-item {
+    font-size: small;
 }
-.fa-arrow-left {
-    color:#1DA1F2;
+.nav-tabs {
+    font-size: small;
+}
+.color-text {
+    color: #0d6efd;
+}
+.equal-margin {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.featured-tweet {
+    background-size: cover;
+    background-image: url("spacex2.jpg");
+}
+.featured-headline {
+    float: left;
+    color: white;
+    position: relative;
+    padding-top: 345px;
+}
+.sidebar-images {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 0px;
+    float: left;
+}
+.title-header {
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    padding-right: 55px;
+}
+.title-header2 {
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    padding-right: 15px;
+}
+.title-caption {
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(113, 118, 123);
+    float: left;
+}
+.text-news {
+    float: left;
+}
+.text-header {
+    float: left;
+    color: rgb(113, 118, 123);
+    font-size: small;
+    text-align: left;
+}
+.different-width {
+    height: 20px;
+}
+.text-title {
+    float: left;
+    font-weight: bold;
+    font-size: small;
+    text-align: left;
+    height: 8px;
+}
+.text-content {
+    float: left;
+    font-weight: bold;
+    font-size: small;
+    text-align: left;
+}
+.news-image {
+    width: 90px;
+    height: 80px;
+    border-radius: 10px;
+    float: right;
+}
+/**
+Challenge styling
+ */
+.background {
+    background-color: black;
+    color: white;
+}
+.fa-solid {
+    color: white;
+}
+.selected {
+    border-bottom-color: #1DA1F2;
+    font-weight: bold;
+}
+.nav-tabs {
+    border-bottom-color: black;
+}
+.currently-selected {
+    border-bottom-color: #1DA1F2;
+}
+.border-color {
+    border-bottom-color: rgb(113, 118, 123);
+    border-radius: 15px;
+    border-width: 0px;
+}
+.background-tabs {
+    background-color: rgba(231, 233, 234, 0.1);
+    border-width: 0px;
+    color: white;
+    border-radius: 20px;
+}
+.change-background {
+    background-color: rgba(231, 233, 234, 0.0001);
+    color: white;
+}
+input:focus {
+    outline-color: black;
+    border-color: inherit;
+    /*box-shadow: 0 0 10px #719ECE;*/
 }

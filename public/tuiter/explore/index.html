@@ -1,98 +1,358 @@
 <html>
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css"
+          rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/2faec46317.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="~/lib/Font-Awesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="~/lib/Font-Awesome/css/regular.min.css">
     <link rel="stylesheet" href="~/lib/Font-Awesome/css/solid.min.css">
 </head>
-<body style="background: black;">
-<a href="/tuiter/navigation.html"><i class="fa-solid fa-arrow-left"></i></a>
-    <div class="wd-background" >
-        <input type="text" placeholder="&nbsp; &nbsp; &#xF002; &nbsp; &nbsp;&nbsp; Search Twitter" style="font-family:'Helvetica Neue',FontAwesome"
-               class="wd-search-field wd-margin-left"/>
-        <span class="wd-gearbox">
-            <a href="explore-setting.html"> <i class="fa-solid fa-gear"></i></a>
-        </span>
-        <div class="wd-margin-left wd-hyperlinks wd-highlight">For you</div>
-        <div class="wd-hyperlinks">Trending</div>
-        <div class="wd-hyperlinks">Covid-19</div>
-        <div class="wd-hyperlinks">News</div>
-        <div class="wd-hyperlinks">Sports</div>
-        <div class="wd-hyperlinks">Entertainment</div><br><br><br>
-        <div class="wd-blankspace wd-rel">&nbsp;</div>
-        <div class="wd-margin-left">
-            <p class="wd-p-gray">
-                Trending in Science
-            </p>
-            <p class="wd-p-gray-font">
-                Starship
-            </p>
-            <p class="wd-p-gray">
-                55.5K Tuits
-            </p>
-            <hr class="wd-hr-border">
-            <p class="wd-p-gray">
-                Sports-Trending
-            </p>
-            <p class="wd-p-gray-font">
-                Joe Rogan
-            </p>
-            <p class="wd-p-gray">
-                5,218 Tuits
-            </p>
-            <hr class="wd-hr-border">
+<body class="background">
+<div class="row wd-margin-top equal-margin background">
+    <div class = "col-2 col-sm-2 col-md-2 mt-1 mb-1">
+        <ul class="list-group background">
+            <li class="list-group-item background">
+                <i class="fab fa-twitter fa-2x"></i>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-home"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Home
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-hashtag"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Explore
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Notification
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Messages
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-bookmark"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Bookmarks
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-list"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Lists
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Profile
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-message"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            More
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <button class="rounded-button">Tweet</button>
+    </div>
+    <div class="col-10 col-sm-10 col-md-7 text-centre wd-margin-top">
+        <div class="row wd-margin-top">
+            <div class = "col-10 col-sm-10 col-md-11 col-lg-11">
+                <input type="text" placeholder="&nbsp; &nbsp; &#xF002; &nbsp; &nbsp;&nbsp; Search Twitter" style="font-family:'Helvetica Neue',FontAwesome"
+                       class="wd-search-field"/>
+            </div>
+            <div class = "col-1 col-sm-1 col-md-1">
+                <i class="fa-solid fa-gear"></i>
+            </div>
         </div>
-        <div class="wd-margin-left">
-            <p class="wd-p-white">
-                The New York times &nbsp;
-                <i class="fa-solid fa-user-check">
-                </i> &nbsp; <span class="wd-p-lightgray">Yesterday</span>
-                <img class="wd-author-img wd-rounded-corners-all-around wd-image-margin-right"
-                     src="loli.jpeg"/>
-            </p>
-            </p>
-            <p class="wd-p-gray-font">
-                CNN's Cuomo conundrum: A star anchor with a brother in trouble.
-            </p>
-            <br>
-            <br>
-            <hr class="wd-hr-border">
-            <p class="wd-p-lightgray">
-                COVID-19 &nbsp;&nbsp;&nbsp; Live
-                <img class="wd-author-img wd-rounded-corners-all-around wd-image-margin-right"
-                     src="niccage.jpg"/>
-            </p>
-            <p class="wd-p-gray-font">
-                COVID-19: News and updates for Massachusetts
-            </p>
-            <br>
-            <br>
-            <hr class="wd-hr-border">
-            <p class="wd-p-white">
-                Bloomberg Opinion &nbsp; <i class="fa-solid fa-user-check"> </i>
-                &nbsp; <span class="wd-p-lightgray">Yesterday</span>
-                <img class="wd-author-img wd-rounded-corners-all-around wd-image-margin-right"
-                     src="arnold.jpg"/>
-            </p>
-            <p class="wd-p-gray-font">
-                Thinking about getting a booster? Read this first.
-            </p>
-            <br>
-            <br>
-            <hr class="wd-hr-border">
+        <div class="row text-centre wd-margin-top">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123)">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123)">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123)">New</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123); border-bottom-color: #0d6efd; border-bottom-width: medium; color: white; font-weight: bold">Sports</a>
+                </li>
+                <li class="nav-item d-none d-sm-none d-lg-block d-xl-block d-xxl-block">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123)">Entertainment</a>
+                </li>
+            </ul>
         </div>
-        <div class="wd-margin-left">
-            <p class="wd-p-gray">
-                Trending in United States
-            </p>
-            <p class="wd-p-gray-font">
-                Wonder bread
-            </p>
-            <p class="wd-p-gray">
-                1,259 Tuits
+        <div class="row wd-margin-top">
+            <ul class="list-group border-color">
+                <li class="list-group-item featured-tweet">
+                    <h2 class="featured-headline">SpaceX's Starship</h2>
+                </li>
+                <li class="list-group-item background border-color">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-9 col-sm-9 col-md-10">
+                                <div class="row different-width">
+                                    <p class="text-header" style="float: left">Web Development
+                                    </p>
+                                </div>
+                                <div class="row" style="float: left">
+                                    <p class="text-title">
+                                        ReactJS <i class="fa-solid fa-circle-check"></i>
+                                    </p>
+                                </div>
+                                <div class="row text-news">
+                                    <p class="text-content">ReactJS is a component based front end library that makes it very easy to build
+                                        Single page applications or SPAs
+                                    </p>
+                                </div>
+                            </div>
+                            <div class = "col-3 col-sm-3 col-md-2">
+                                <img src="images/java.jpg" class="news-image">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item background border-color">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-9 col-sm-9 col-md-10">
+                                <div class="row different-width">
+                                    <p class="text-header" style="float: left">Web Development
+                                    </p>
+                                </div>
+                                <div class="row" style="float: left">
+                                    <p class="text-title">
+                                        ReactJS <i class="fa-solid fa-circle-check"></i>
+                                    </p>
+                                </div>
+                                <div class="row text-news">
+                                    <p class="text-content">ReactJS is a component based front end library that makes it very easy to build
+                                        Single page applications or SPAs
+                                    </p>
+                                </div>
+                            </div>
+                            <div class = "col-3 col-sm-3 col-md-2">
+                                <img src="images/tesla.jpg" class="news-image">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item background border-color">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-9 col-sm-9 col-md-10">
+                                <div class="row different-width">
+                                    <p class="text-header" style="float: left">Web Development
+                                    </p>
+                                </div>
+                                <div class="row" style="float: left">
+                                    <p class="text-title">
+                                        ReactJS <i class="fa-solid fa-circle-check"></i>
+                                    </p>
+                                </div>
+                                <div class="row text-news">
+                                    <p class="text-content">ReactJS is a component based front end library that makes it very easy to build
+                                        Single page applications or SPAs<br><br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class = "col-3 col-sm-3 col-md-2">
+                                <img src="images/relativity.jpg" class="news-image">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item background border-color">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-9 col-sm-9 col-md-10">
+                                <div class="row different-width">
+                                    <p class="text-header" style="float: left">Web Development
+                                    </p>
+                                </div>
+                                <div class="row" style="float: left">
+                                    <p class="text-title">
+                                        ReactJS <i class="fa-solid fa-circle-check"></i>
+                                    </p>
+                                </div>
+                                <div class="row text-news">
+                                    <p class="text-content">ReactJS is a component based front end library that makes it very easy to build
+                                        Single page applications or SPAs
+                                    </p>
+                                </div>
+                            </div>
+                            <div class = "col-3 col-sm-3 col-md-2">
+                                <img src="images/virgin.jpg" class="news-image">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-0 col-sm-2 col-md-3 d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block text-centre">
+        <ul class="list-group background-tabs">
+            <li class="list-group-item change-background">
+                <b style="float: left; font-size: medium">Who to follow</b>
+            </li>
+            <li class="list-group-item change-background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-2">
+                            <img src="images/java.jpg" class="sidebar-images">
+                        </div>
+                        <div class="col col-md-6">
+                            <h6 class="title-header">Java <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="title-caption">@Java</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="rounded-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item change-background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col-2 col-md-2">
+                            <img src="images/relativity.jpg" class="sidebar-images">
+                        </div>
+                        <div class="col-8 col-md-6">
+                            <h6 class="title-header2">Relativity Space <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="title-caption">@RelativitySpace</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="rounded-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item change-background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-2">
+                            <img src="images/virgin.jpg" class="sidebar-images">
+                        </div>
+                        <div class="col col-md-6">
+                            <h6 class="title-header2">Virgin Galatic <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="title-caption">@VirginGalactic</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="rounded-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item change-background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-2">
+                            <img src="images/nasa.jpg" class="sidebar-images">
+                        </div>
+                        <div class="col col-md-6">
+                            <h6 class="title-header">Nasa <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="title-caption">@Nasa</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="rounded-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item change-background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-2">
+                            <img src="images/tesla.jpg" class="sidebar-images">
+                        </div>
+                        <div class="col col-md-6">
+                            <h6 class="title-header">Tesla <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="title-caption">@Tesla</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="rounded-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="row">
+            <p style="color: rgb(113, 118, 123); font-size: 10px; margin-top: 10px">
+                Terms of service &nbsp;&nbsp;Privacy Policy &nbsp;&nbsp; Cookie Policy <br>
+                Ads info &nbsp;&nbsp; More ... &nbsp;&nbsp; @Tuiter, Inc.
             </p>
         </div>
     </div>
+</div>
 </body>
 </html>
