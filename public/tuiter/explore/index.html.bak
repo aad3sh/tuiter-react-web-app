@@ -1,0 +1,333 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>          
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="../../vendors/bootswatch/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/2faec46317.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/lib/Font-Awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/lib/Font-Awesome/css/regular.min.css">
+    <link rel="stylesheet" href="~/lib/Font-Awesome/css/solid.min.css">
+</head>
+<body class="background">
+<div class="row wd-margin-top wd-margin background">
+    <div class = "col-2 col-sm-2 col-md-2 mt-1 mb-1">
+        <ul class="list-group background">
+            <li class="list-group-item background">
+                <i class="fab fa-twitter fa-2x"></i>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-home"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Home
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-hashtag"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Explore
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Notification
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Messages
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-bookmark"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Bookmarks
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-list"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Lists
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            Profile
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item background">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-1" style="float: left">
+                            <i class="fa-solid fa-message"></i>
+                        </div>
+                        <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style="float: left">
+                            More
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <button class="wd-round-button">Tweet</button>
+    </div>
+    <div class="col-10 col-sm-10 col-md-7 wd-text-centre wd-margin-top">
+        <div class="row wd-margin-top">
+            <div class = "col-10 col-sm-10 col-md-11 col-lg-11">
+                <input type="text" placeholder="&nbsp; &nbsp; &#xF002; &nbsp; &nbsp;&nbsp; Search Twitter" style="font-family:'Helvetica Neue',FontAwesome"
+                       class="wd-search-bar"/>
+            </div>
+            <div class = "col-1 col-sm-1 col-md-1">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+        </div>
+        <div class="row wd-text-centre wd-margin-top">
+            <ul class="nav wd-navigation-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123)">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123); border-bottom-color: #0d6efd; border-bottom-width: medium; color: white; font-weight: bold">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123)">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123)">Sports</a>
+                </li>
+                <li class="nav-item d-none d-sm-none d-lg-block d-xl-block d-xxl-block">
+                    <a class="nav-link" href="#" style="color: rgb(113, 118, 123)">Entertainment</a>
+                </li>
+            </ul>
+        </div>
+        <div class="row wd-margin-top">
+            <ul class="list-group wd-border-style">
+                <li class="list-group-item wd-top-tuit">
+                    <h2 class="wd-top-headline">SpaceX's Starship</h2>
+                </li>
+                <li class="list-group-item background wd-border-style">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-9 col-sm-9 col-md-10">
+                                <div class="row wd-irregular-width">
+                                    <p class="wd-content-header" style="float: left">Web Development
+                                    </p>
+                                </div>
+                                <div class="row" style="float: left">
+                                    <p class="wd-content-title">
+                                        ReactJS <i class="fa-solid fa-circle-check"></i>
+                                    </p>
+                                </div>
+                                <div class="row wd-tuit-content">
+                                    <p class="text-content">ReactJS is a component based front end library that makes it very easy to build
+                                        Single page applications or SPAs
+                                    </p>
+                                </div>
+                            </div>
+                            <div class = "col-3 col-sm-3 col-md-2">
+                                <img src="images/react.jpg" class="wd-image">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item background wd-border-style">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-9 col-sm-9 col-md-10">
+                                <div class="row wd-irregular-width">
+                                    <p class="wd-content-header" style="float: left">Web Development
+                                    </p>
+                                </div>
+                                <div class="row" style="float: left">
+                                    <p class="wd-content-title">
+                                        Relativity <i class="fa-solid fa-circle-check"></i>
+                                    </p>
+                                </div>
+                                <div class="row wd-tuit-content">
+                                    <p class="text-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br><br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class = "col-3 col-sm-3 col-md-2">
+                                <img src="images/relativity.jpg" class="wd-image">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item background wd-border-style">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-9 col-sm-9 col-md-10">
+                                <div class="row wd-irregular-width">
+                                    <p class="wd-content-header" style="float: left">Web Development
+                                    </p>
+                                </div>
+                                <div class="row" style="float: left">
+                                    <p class="wd-content-title">
+                                        Teska <i class="fa-solid fa-circle-check"></i>
+                                    </p>
+                                </div>
+                                <div class="row wd-tuit-content">
+                                    <p class="text-content">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+                                    </p>
+                                </div>
+                            </div>
+                            <div class = "col-3 col-sm-3 col-md-2">
+                                <img src="images/tesla.jpg" class="wd-image">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-0 col-sm-2 col-md-3 d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block wd-text-centre">
+        <ul class="list-group wd-bg-tabs">
+            <li class="list-group-item wd-update-bg">
+                <b style="float: left; font-size: medium">Who to follow</b>
+            </li>
+            <li class="list-group-item wd-update-bg">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-2">
+                            <img src="images/java.png" class="wd-sidebar-image">
+                        </div>
+                        <div class="col col-md-6">
+                            <h6 class="wd-header">Java <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="wd-title-tag">@Java</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="wd-round-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item wd-update-bg">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col-2 col-md-2">
+                            <img src="images/relativity.jpg" class="wd-sidebar-image">
+                        </div>
+                        <div class="col-8 col-md-6">
+                            <h6 class="wd-header2">Relativity Space <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="wd-title-tag">@RelativitySpace</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="wd-round-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item wd-update-bg">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-2">
+                            <img src="images/virgin.jpg" class="wd-sidebar-image">
+                        </div>
+                        <div class="col col-md-6">
+                            <h6 class="wd-header2">Virgin Galatic <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="wd-title-tag">@VirginGalactic</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="wd-round-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item wd-update-bg">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-2">
+                            <img src="images/nasa.jpg" class="wd-sidebar-image">
+                        </div>
+                        <div class="col col-md-6">
+                            <h6 class="wd-header">Nasa <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="wd-title-tag">@Nasa</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="wd-round-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item wd-update-bg">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col col-md-2">
+                            <img src="images/tesla.jpg" class="wd-sidebar-image">
+                        </div>
+                        <div class="col col-md-6">
+                            <h6 class="wd-header">Tesla <i class="fa-solid fa-circle-check"></i>
+                            </h6>
+                            <h6 class="wd-title-tag">@Tesla</h6>
+                        </div>
+                        <div class="col col-md-4">
+                            <button class="wd-round-button" style="background-color: white; color: black; font-weight: bold">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="row">
+            <p style="color: rgb(113, 118, 123); font-size: 10px; margin-top: 10px">
+                Terms of service &nbsp;&nbsp;Privacy Policy &nbsp;&nbsp; Cookie Policy <br>
+                Ads info &nbsp;&nbsp; More ... &nbsp;&nbsp; @Tuiter, Inc.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
