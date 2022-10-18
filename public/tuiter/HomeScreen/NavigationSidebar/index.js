@@ -4,7 +4,7 @@ const NavigationSidebar = () => {
             <li class="list-group-item" style="background-color: rgba(231, 233, 234, 0.1); color: white">
                 <i class="fab fa-twitter fa-2x"></i>
             </li>
-            <li class="list-group-item active" style="background-color: rgba(231, 233, 234, 0.1); color: white">
+            <li class="list-group-item active">
                 <div class="grid">
                     <div class="row">
                         <div class="col col-md-1" style="float: left">
@@ -16,7 +16,7 @@ const NavigationSidebar = () => {
                     </div>
                 </div>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item" style="background-color: rgba(231, 233, 234, 0.1); color: white">
                 <div class="grid">
                     <div class="row">
                         <div class="col col-md-1" style="float: left">
