@@ -1,4 +1,4 @@
-import React from "react";
+import React, {}  from 'react';
 import itemsArray from './items.json';
 import PostItem from "./post-item";
 

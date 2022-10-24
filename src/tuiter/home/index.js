@@ -1,4 +1,4 @@
-import React from "react";
+import React, {}  from 'react';
 import PostItemList from "../post-item";
 import "./index.css";
 const HomeComponent = () => {

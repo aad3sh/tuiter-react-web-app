@@ -1,5 +1,4 @@
-import React from 'react';
-import Nav from "../nav";
+import React, {}  from 'react';
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from './who-to-follow-list';
 import ExploreComponent from './explore';

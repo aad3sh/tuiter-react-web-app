@@ -1,5 +1,5 @@
 import './index.css';
-import React, { Component }  from 'react';
+import React, {}  from 'react';
 function Classes() {
     return (
         <div>
