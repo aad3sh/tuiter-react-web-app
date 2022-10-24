@@ -1,6 +1,6 @@
 import PostSummaryList from "./PostSummaryList/PostSummaryList.js";
 
-const ExploreComponent = () => {
+const ExploreComponentPublic = () => {
     return(`
         <div class="row wd-margin-top">
             <div class = "col-10 col-sm-10 col-md-11 col-lg-11">
@@ -40,4 +40,4 @@ const ExploreComponent = () => {
         </div>
     `);
 }
-export default ExploreComponent;
+export default ExploreComponentPublic;
