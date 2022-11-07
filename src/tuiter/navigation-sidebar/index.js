@@ -39,6 +39,19 @@ const NavigationSidebar = () => {
                     </div>
                 </div>
             </Link>
+            <Link to="/tuiter/profile" className={`list-group-item
+                    ${active === 'profile'?'active':''}`}>
+                <div className="grid">
+                    <div className="row">
+                        <div className="col col-md-1" style={floatLeft}>
+                            <i className="fa-solid fa-user"></i>
+                        </div>
+                        <div className="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style={floatLeft}>
+                            Profile
+                        </div>
+                    </div>
+                </div>
+            </Link>
             <a className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
                 <div className="grid">
@@ -87,19 +100,6 @@ const NavigationSidebar = () => {
                         </div>
                         <div className="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style={floatLeft}>
                             Lists
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
-                <div className="grid">
-                    <div className="row">
-                        <div className="col col-md-1" style={floatLeft}>
-                            <i className="fa-solid fa-user"></i>
-                        </div>
-                        <div className="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style={floatLeft}>
-                            Profile
                         </div>
                     </div>
                 </div>
