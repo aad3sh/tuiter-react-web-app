@@ -1,6 +1,6 @@
 import React, {}  from 'react';
 import profile from "../profile/profile-reducer";
-import {Provider} from "react-redux";
+import {Provider, connect} from "react-redux";
 import { configureStore }
     from '@reduxjs/toolkit';
 import EditProfileItem from "./edit-profile";
@@ -17,4 +17,8 @@ const EditProfileComponent = () => {
         </Provider>
     );
 };
-export default EditProfileComponent;
+const mapStateToProps = (state) => {
+    const tracks = state
+    return { tracks }
+}
+export default connect(mapStateToProps)(EditProfileComponent);

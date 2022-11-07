@@ -30,7 +30,9 @@ const ProfileItem = () => {
         <div className="col-12">
             <div className="row">
                 <div className="col-1">
-                    <i className="fa-solid fa-arrow-left"></i>
+                    <Link to="/tuiter/home">
+                        <i className="fa-solid fa-arrow-left"></i>
+                    </Link>
                 </div>
                 <div className="col-11">
                     <div className="row">
@@ -52,11 +54,11 @@ const ProfileItem = () => {
                             <img className="rounded-circle" src={require(`../images/${todos.profilePicture}`)}
                                  style={profilePic}/>
                         </div>
-                        <Link to="/tuiter/edit-profile">
                             <div className="col-3">
+                                <Link to="/tuiter/edit-profile">
                                 <button style={editButton}>Edit Profile</button>
+                                </Link>
                             </div>
-                        </Link>
                     </div>
                     <div className="row">
                         <h5 style={{fontStyle:'bolder'}}>{todos.name}</h5>

@@ -1,4 +1,5 @@
 import React, {}  from 'react';
+import ConditionalLike from "../../conditional-like/conditional-like";
 const TuitStats = (
     {
         post = {
@@ -9,14 +10,23 @@ const TuitStats = (
     }
 ) => {
     return(
-        <div className="row-cols-auto ps-5">
-            <a href="javascript:void(0);"><i className="fa-regular fa-comment"></i></a>
-            &nbsp;{post.replies}&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="javascript:void(0);"><i className="fa-solid fa-retweet"></i></a>
-            &nbsp;{post.retuits}&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="javascript:void(0);"><i className="fa-solid fa-heart"></i></a>
-            &nbsp;{post.likes}&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="javascript:void(0);"><i className="fa-solid fa-download"></i></a>
+        <div className="container ps-5">
+            <div className="row">
+                <div className="col-sm">
+                    <i className="fa-regular fa-comment"></i>
+                    &nbsp;{post.replies}
+                </div>
+                <div className="col-sm">
+                    <i className="fa-solid fa-retweet"></i>
+                    &nbsp;{post.retuits}
+                </div>
+                <div className="col-sm">
+                    <ConditionalLike tuit={post}/>
+                </div>
+                <div className="col-sm">
+                    <i className="fa-solid fa-download"></i>
+                </div>
+            </div>
         </div>
     );
 };
