@@ -19,6 +19,7 @@ const templateTuit = {
     "likes": 0,
     "dislikes":0,
     "disliked":false,
+    "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
 }
 
 const initialState = {
